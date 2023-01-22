@@ -5,7 +5,7 @@ import { searchProPlugin } from "vuepress-plugin-search-pro";
 // @ts-ignore
 // @ts-ignore
 export default defineUserConfig({
-  base: "/",
+  base: "/xiao-ku-dang/",
 
   locales: {
     "/": {
