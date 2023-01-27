@@ -17,25 +17,43 @@ export const zhNavbar = navbar([
     icon: "repo",
     link: "/zh/course/"
   },
-/*  {
-    text: "指南",
-    icon: "creative",
+ {
+    text: "项目",
+    icon: "info",
     prefix: "/zh/guide/",
     children: [
       {
-        text: "Bar",
-        icon: "creative",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "more", link: "" }],
+        text: "个人博客系统",
+        icon: "app",
+        link: "https://github.com/08820048/wblog",
       },
-      {
-        text: "Foo",
-        icon: "config",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "more", link: "" }],
-      },
+        {
+            text: "QQ机器人",
+            icon: "anonymous",
+            link: "https://github.com/08820048/xiaoUbot",
+        },
+        {
+            text: "人力资源管理",
+            icon: "context",
+            link: "https://github.com/08820048/HrSysterm",
+        },
+        {
+            text: "牛客社区项目",
+            icon: "geometry",
+            link: "https://github.com/08820048/community",
+        },
+        {
+            text: "简一小程序(暂停开发)",
+            icon: "input",
+            link: "https://github.com/08820048/JaneOne",
+        },
+        {
+            text: "JSP项目PRQS",
+            icon: "code",
+            link: "https://github.com/08820048/PRQS",
+        },
     ],
-  },*/
+  },
  /* {
     text: "学习笔记",
     icon: "creative",

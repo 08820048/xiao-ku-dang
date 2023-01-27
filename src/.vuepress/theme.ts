@@ -1,9 +1,9 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { zhNavbar } from "./navbar/index.js";
+import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://docs.waer.ltd",
 
   author: {
     name: "八尺妖剑",
@@ -15,11 +15,13 @@ export default hopeTheme({
   logo: "/logo.svg",
 
   repo: "https://github.com/08820048",
-
-  docsDir: "project/theme-docs/src",
+  repoLabel: "GitHub",
+  repoDisplay: true,
+  docsDir: "",
+  docsBranch: "master",
 
   locales: {
-    "/": {
+/*    "/": {
       // navbar
       navbar: enNavbar,
 
@@ -33,12 +35,12 @@ export default hopeTheme({
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
-    },
+    },*/
 
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 

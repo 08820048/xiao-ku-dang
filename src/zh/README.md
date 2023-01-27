@@ -67,7 +67,7 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/" target="_blank">VuePres
 
 ****
 
-**上面是一些我认为很好用的资源站点，时间关系没有全写，如果你也有私货，欢迎`fork`本项目，参与编辑添加进来，造福人类。**
+**上面是一些我认为很好用的资源站点，时间关系没有全写，如果你也有私货，欢迎[`fork`](https://github.com/08820048/xiao-ku-dang)本项目，参与编辑添加进来，造福人类。**
 
 ## 文档说明
 

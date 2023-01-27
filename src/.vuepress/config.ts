@@ -8,12 +8,12 @@ export default defineUserConfig({
   base: "/xiao-ku-dang/",
 
   locales: {
-    "/": {
+  /*  "/": {
       lang: "en-US",
       title: "Docs Demo",
       description: "A docs project for vuepress-theme-hope",
-    },
-    "/zh/": {
+    },*/
+    "/": {
       lang: "zh-CN",
       title: "小库档",
       description: "配合个人博客-八尺妖剑，实现文章与笔记的分离。",

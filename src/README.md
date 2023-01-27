@@ -1,110 +1,64 @@
----
 home: true
 icon: home
-title: Project home
+title: 首页
 heroImage: /logo.svg
-heroText: Project name
-tagline: You can place the description of the project here.
+heroText: 小库档
+tagline: 配合个人博客，实现文章与笔记的分离。
 actions:
-  - text: How to Use 💡
-    link: /demo/
+  - text: 个人博客
+    link: https://waer.ltd
+
+  - text: 公众号
+    link: https://images.waer.ltd/img/20221128202845.png
     type: primary
 
-  - text: Docs
-    link: /guide/
-
 features:
-  - title: Markdown Enhance
-    icon: markdown
-    details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
-    link: https://theme-hope.vuejs.press/guide/markdown/
-
-  - title: Slide page
+  - title: 稀土掘金
     icon: slides
-    details: Adding slide pages to display things you like
-    link: https://theme-hope.vuejs.press/guide/layout/slides.html
+    details: 国内目前技术社区后起之秀，目前看来还没烂。
+    link: https://juejin.cn/user/1768452430504254?utm_source=gold_browser_extension 
 
-  - title: Layout enhancement
+  - title: 图片格式在线转换
     icon: layout
-    details: Adding breadcrumb, footer, improved navbar, improved page nav and etc.
-    link: https://theme-hope.vuejs.press/guide/layout/
+    details: 免费提供图片各种格式的相互转换，比如png转svg等，功能齐全。
+    link: https://onlineconvertfree.com/zh/convert-format/jpeg-to-svg/
 
-  - title: Pageviews and comments
+  - title: 第一PPT
     icon: comment
-    details: Start pageview statistics and comment support with Waline
-    link: https://theme-hope.vuejs.press/guide/feature/comment.html
+    details: 提供各种类型的PPT模板免费下载
+    link: https://www.1ppt.com/moban/
 
-  - title: Article information
+  - title: wallhaven
     icon: info
-    details: Add author, writing date, reading time, word count and other information to your article
-    link: https://theme-hope.vuejs.press/guide/feature/page-info.html
+    details: 在线的高清壁纸网站，支持各种分辨率，灰常漂亮。
+    link: https://wallhaven.cc/search?q=gif
 
-  - title: Blog support
+  - title: PickFrom
     icon: blog
-    details: Listing your articles with their dates, tags and categories with some awesome layouts
-    link: https://theme-hope.vuejs.press/guide/blog/
+    details: 一站式视频剪辑平台，功能一应俱全、简单好用的在线视频剪辑工具, 让您轻松玩转视频，原理臃肿客户端。
+    link: https://zh.pickfrom.net/
 
-  - title: Custom theme color
+  - title: ChatGPT
     icon: palette
-    details: Supports custom theme colors and allows users to switch between preset theme colors
-    link: https://theme-hope.vuejs.press/guide/interface/theme-color.html
+    details: 一个正在进化中大智近妖的人工智能Ai,功能强大。
+    link: https://chat.openai.com/chat
 
-  - title: Dark Mode
-    icon: contrast
-    details: Switch between light and dark modes freely
-    link: https://theme-hope.vuejs.press/guide/interface/darkmode.html
 
-  - title: Full A11y support
-    icon: support
-    details: Full support of accessibility in your site
-    link: https://theme-hope.vuejs.press/guide/interface/accessibility.html
-
-  - title: Article Encryption
+  - title: crontab
     icon: lock
-    details: Encrypt you articles based on page links, so that only the one you want could see them
-    link: https://theme-hope.vuejs.press/guide/feature/encrypt.html
+    details: 一个强大的cron表达式生成网站，提供实时渲染与分段显示，轻松看懂cron。
+    link: https://crontab.guru/
 
-  - title: Copy button
+  - title: visualgo
     icon: copy
-    details: Copy codes with one click in code blocks
-    link: https://theme-hope.vuejs.press/guide/feature/copy-code.html
+    details: 数据结构和算法在线练习，动态结构可视化，用过都说好。
+    link: https://visualgo.net/zh
 
-  - title: Image preview
+  - title: 开发工具库
     icon: pic
-    details: Support viewing, zooming, sharing your page images like a gallery
-    link: https://theme-hope.vuejs.press/guide/feature/photo-swipe.html
+    details: 一个在线干净简洁的工具库，集成了很多开发者常用的工具。
+    link: https://smalldev.tools/
 
-  - title: SEO enhancement
-    icon: config
-    details: Optimize pages for search engines
-    link: https://theme-hope.vuejs.press/guide/advanced/seo.html
-
-  - title: Sitemap
-    icon: sitemap
-    details: Generate a Sitemap for your site
-    link: https://theme-hope.vuejs.press/guide/advanced/sitemap.html
-
-  - title: Feed support
-    icon: rss
-    details: Generate feed to allow users to subscribe it
-    link: https://theme-hope.vuejs.press/guide/advanced/feed.html
-
-  - title: PWA support
-    icon: mobile
-    details: Make your site more like an APP
-    link: https://theme-hope.vuejs.press/guide/advanced/pwa.html
-
-  - title: More new features
-    icon: more
-    details: Including icon support, fullscreen button, etc.
-    link: https://theme-hope.vuejs.press/guide/feature/
-
-copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
----
-
-This is an example of a project homepage. You can place your main content here.
-
-To use this layout, you need to set `home: true` in the page front matter.
-
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://theme-hope.vuejs.press/guide/layout/home/).
+copyright: 
+footer: 使用 <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 
+    2023-present 八尺妖剑
