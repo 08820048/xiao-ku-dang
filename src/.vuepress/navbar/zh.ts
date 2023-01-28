@@ -28,12 +28,12 @@ export const zhNavbar = navbar([
         link: "https://github.com/08820048/wblog",
       },
         {
-            text: "QQ机器人",
+            text: "QQ发题机器人",
             icon: "anonymous",
             link: "https://github.com/08820048/xiaoUbot",
         },
         {
-            text: "人力资源管理",
+            text: "人力资源管理系统",
             icon: "context",
             link: "https://github.com/08820048/HrSysterm",
         },
