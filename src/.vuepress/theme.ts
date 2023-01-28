@@ -4,7 +4,15 @@ import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://docs.waer.ltd",
-
+  fullscreen: true,
+  print: true,
+  themeColor: {
+    green: "#3eaf7c",
+    blue: "#2196f3",
+    red: "#e10c0c",
+    orange: "#5a16b2",
+    gray: "#6d6e70",
+  },
   author: {
     name: "八尺妖剑",
     url: "https://waer.ltd",
@@ -67,6 +75,9 @@ export default hopeTheme({
   },
 
   plugins: {
+    feed: {
+      rss: true
+    },
     // If you don’t need comment feature, you can remove following option
     // The following config is for project ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
